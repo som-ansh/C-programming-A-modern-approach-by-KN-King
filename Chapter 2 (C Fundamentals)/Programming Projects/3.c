@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+#define PI (22.0f / 7.0f)
+
+int main(void)
+{
+    float radius, volume;
+
+    printf("ENter the radius of the sphere: ");
+    scanf("%f", &radius);
+
+    volume = (4.0f / 3.0f) * PI * radius * radius * radius;
+
+    printf("The volume of the sphere is: %.2f", volume);
+
+    return 0;
+}
